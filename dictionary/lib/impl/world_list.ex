@@ -1,7 +1,7 @@
 defmodule Dictionary.Impl.WordList do
   @type t :: list(String)
 
-  @spec world_list() :: t()
+  @spec word_list() :: t()
   def word_list() do
     "assets/words.txt"
     |> File.read!()
