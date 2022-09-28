@@ -1,4 +1,4 @@
-defmodule Dictionary do
+defmodule Dictionary.Impl.WordList do
   @word_list "assets/words.txt"
              |> File.read!()
              |> String.split(~r/\n/, trim: true)
