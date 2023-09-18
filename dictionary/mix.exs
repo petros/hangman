@@ -15,7 +15,7 @@ defmodule Dictionary.MixProject do
   def application do
     [
       mod: {Dictionary.Runtime.Application, []},
-      extra_applications: [:logger]
+      extra_applications: [:logger, :wx, :observer, :runtime_tools]
     ]
   end
 
